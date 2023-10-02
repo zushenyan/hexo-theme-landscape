@@ -7,13 +7,10 @@
     position: absolute
     left: 0
     right: 0
-    height: 40px
+    height: 80px
   &:before
     top: 0
-    background: linear-gradient(rgba(0, 0, 0, 0.2), transparent)
-  &:after
-    bottom: 0
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.2))
+    background: linear-gradient(rgba(0, 0, 0, 0.8), transparent)
 
 #header-outer
   height: 100%
@@ -45,7 +42,7 @@ $logo-text
   text-decoration: none
   color: #fff
   font-weight: 300
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3)
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 1)
 
 #logo
   @extend $logo-text
@@ -69,7 +66,7 @@ $logo-text
 $nav-link
   float: left
   color: #fff
-  opacity: 0.6
+  opacity: 1
   text-decoration: none
   text-shadow: 0 1px rgba(0, 0, 0, 0.2)
   transition: opacity 0.2s
